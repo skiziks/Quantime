@@ -14,7 +14,7 @@
         $speed = $_POST['speed'];
 
         if ($km == null || $speed == null) {
-            echo "Vous n'avez renseigné aucune valeure !";
+            echo "You have not entered any values !";
         }
 
         $result = ($km*1)/$speed;
