@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantime</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="formulaire_generator">
+        <p>Time Quantum Generator</p>
+        <form name="formulaire" method="post" action="main.php">
+        Distance you have to do (km) : <input type='number' name='km' /><br/>
+        Speed of your ship (km/s) : <input type='number' name='speed' /><br />
+        <input class="submit" type="submit" value="Generate Time">
+        </form>
+    </div>
 </body>
 </html>

@@ -1,0 +1,38 @@
+body {
+    background-image: url(img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+}
+.php{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20%;
+    border-radius: 74px;
+    background: #7e86a1;
+    box-shadow: inset -19px 19px 38px #696f86, inset 19px -19px 38px #939dbc;
+}
+.formulaire_generator{
+    background: #7e86a1;
+    border-radius: 74px;
+    box-shadow: inset -19px 19px 38px #696f86, inset 19px -19px 38px #939dbc;
+    width: fit-content;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-left: 30px;
+    margin: auto;
+    margin-top: 15%;
+}
+.submit{
+    width: fit-content;
+    margin-left: 40%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.submit:hover{
+    scale: 1.5;
+    transition: 1s;
+    background-color: azure;
+}
